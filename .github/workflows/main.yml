@@ -11,7 +11,7 @@ jobs:
     name: test
     strategy:
       matrix:
-        node: [10, 12, 14]
+        node: [12, 14]
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
