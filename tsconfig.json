@@ -1,0 +1,14 @@
+{
+  "extends": "./node_modules/@tgarif/tsconfig/tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "./",
+    "outDir": "./dist",
+    "lib": ["esnext"],
+    "target": "es5",
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "downlevelIteration": true
+  },
+  "include": ["src/*.ts", "src/**/*.ts", "test/*.ts", "test/**/*.ts"]
+}

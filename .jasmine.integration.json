@@ -1,0 +1,11 @@
+{
+  "spec_dir": ".",
+  "spec_files": ["dist/test/integration/**/*.spec.js"],
+  "helpers": [
+    "./build/test/jasmine-helpers/*.js",
+    "./node_modules/source-map-support/register.js",
+    "./node_modules/jasmine-espect/index.js"
+  ],
+  "stopSpecOnExpectationFailure": false,
+  "random": false
+}
