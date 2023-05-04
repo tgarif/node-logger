@@ -10,7 +10,7 @@ export function printf(info: logform.TransformableInfo) {
   // value, and if that is an array, we can't tell if our array is the
   // meta array or just the value itself.
   // Hence, access the meta directly.
-  // [wh]
+  // [ta]
   const meta = info[SPLAT];
 
   if (meta) {
