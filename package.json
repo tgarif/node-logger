@@ -1,5 +1,5 @@
 {
-  "name": "@tgarif/node-logger",
+  "name": "@tgarif/logger",
   "version": "0.1.0",
   "description": "A simple wrapper around winston which logs to console as well as multiple files, with child namespaces.",
   "main": "index.js",
